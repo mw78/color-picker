@@ -17,7 +17,7 @@ function setColorPickerEventListeners(colorBox, rgb, pickerElements) {
     let pickerLen = pickerElements.length;
     for (let i = 0; i < pickerLen; i++) {
         pickerElements[i].addEventListener('change', () => {
-            console.log(red, green, blue);
+            console.log("Red value: ", rgb.red.value);
             let red = rgb.red.value;
             let green = rgb.green.value;
             let blue = rgb.blue.value;
